@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Ingressos</title>
+  <link rel="stylesheet" type="text/css" href="compras.css">
+</head>
+<body>
+  <header>
+    <h1>Compra de Ingressos</h1>
+  </header>
+
+  <section>
+    <form>
+      <div class="form-group">
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+      </div>
+      <div class="form-group">
+        <label for="ticket-type">Data:</label>
+        <select id="ticket-type" name="ticket-type">
+          <option value="normal">Hoje - 16:00</option>
+          <option value="vip">20/06 - 18:00</option>
+          <option value="premium">20/11- 21:00</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="payment-method">Método de Pagamento:</label>
+        <select id="payment-method" name="payment-method">
+          <option value="credit-card">Cartão de Crédito</option>
+          <option value="debit-card">Boleto</option>
+          <option value="paypal">Pix</option>
+        </select>
+      </div>
+      <h3>Valor: R$ 15</h3>
+      <button type="submit">Comprar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Hemir Ingressos</p>
+  </footer>
+</body>
+</html>
+
