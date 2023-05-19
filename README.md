@@ -1,2 +1,2 @@
 # AtividadeHemir
-(Pagina Site = Inicio)
+(Pagina site = Inicio)
